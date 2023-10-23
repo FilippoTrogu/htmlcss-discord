@@ -5,9 +5,12 @@
 }
 
 header{
-    background-color: rgb(157, 196, 231);
-    height: 75px;
+    /* background-color: rgb(157, 196, 231); */
     padding: 10px 0;
+    background-image: url(../img/jumbo.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 footer{
@@ -88,7 +91,7 @@ footer{
 }
 
 .bg-darkblue{
-    background-color: rgb(6, 6, 106);
+    /* background-color: rgb(6, 6, 106); */
     padding: 20px 0;
 }
 
@@ -147,4 +150,38 @@ footer{
 
 .side{
     padding: 10px;
+}
+
+/* HEADER */
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-1{
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.big-text{
+    text-align: center;
+}
+
+.idk{
+    text-align: center;
+    line-height: 3.5;
+}
+
+.large-button{
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 28px;
+}
+
+.button-3{
+    background-color: rgb(40, 38, 38);
+    color: white;
 }
