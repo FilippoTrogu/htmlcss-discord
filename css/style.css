@@ -167,12 +167,12 @@ footer{
 }
 
 .big-text{
-    text-align: center;
+    font-weight: 500;
 }
 
 .idk{
     text-align: center;
-    line-height: 3.5;
+    
 }
 
 .large-button{
@@ -184,4 +184,15 @@ footer{
 .button-3{
     background-color: rgb(40, 38, 38);
     color: white;
+}
+
+/* MAIN */
+ .item-4-text{
+    text-align: center;
+    line-height: 1.5;
+ }
+
+/* ALTRE CLASSI IMPORTANTI */
+.line-height-35{
+    line-height: 3.5;
 }
